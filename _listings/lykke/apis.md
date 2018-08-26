@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Deposits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis: []
