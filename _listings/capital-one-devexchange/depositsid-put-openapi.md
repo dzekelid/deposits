@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: Capital One DevExchange
-x-complete: 1
+x-complete: 0
 info:
-  title: Capital One DevExchange
-  description: nessie-is-capital-ones-hackathon-api-that-gives-you-access-to-a-multitude-of-real-publicfacing-data--such-as-atm-and-bank-branch-locations--along-with-mock-customer-account-data--use-http-requests-to-set-up-peertopeer-transactions-simulate-a-weekly-paycheck-or-even-schedule-bills-for-customers-this-is-all-structured-in-a-way-that-resembles-how-we-actually-run-things-here-at-capital-one-
+  title: Capital One DevExchange Update a specific existing deposit
+  description: Updates the specific deposit
   version: 1.0.0
 host: api.reimaginebanking.com
 basePath: /
@@ -91,18 +92,17 @@ paths:
       tags:
       - Banks
       - Deposits
-    delete:
-      summary: Delete a specific existing deposit
-      description: Deletes the specific deposit
-      operationId: deletes-the-specific-deposit
-      x-api-path-slug: depositsid-delete
-      parameters:
-      - in: path
-        name: id
-        description: ID of the deposit that is being deleted
-      responses:
-        200:
-          description: OK
-      tags:
-      - Banks
-      - Deposits
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

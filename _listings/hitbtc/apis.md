@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "3107"
 tags: Deposits
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/hitbtc/apis.md
 specificationVersion: "0.14"
 apis:
@@ -86,6 +86,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/hitbtc/accountcryptoaddresscurrency-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/hitbtc/accountcryptoaddresscurrency-post-openapi.md
+- name: HitBTC API - Create New Deposit Crypro Address
+  x-api-slug: accountcryptoaddresscurrency-post
+  description: Create new deposit crypro address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
+  humanURL: https://hitbtc.com
+  baseURL: https:////api/2
+  tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/hitbtc/accountcryptoaddresscurrency-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/hitbtc/accountcryptoaddresscurrency-post-openapi.md
+- name: HitBTC API - Get Deposit Crypro Address
+  x-api-slug: accountcryptoaddresscurrency-get
+  description: Get deposit crypro address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png
+  humanURL: https://hitbtc.com
+  baseURL: https:////api/2
+  tags: Technology, Blockchain, Marketplace, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/hitbtc/accountcryptoaddresscurrency-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/hitbtc/accountcryptoaddresscurrency-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.hitbtc.com/feed/

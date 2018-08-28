@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: HitBTC
 x-complete: 1
@@ -46,4 +45,3 @@ paths:
       - Deposit
       - Crypro
       - Address
----

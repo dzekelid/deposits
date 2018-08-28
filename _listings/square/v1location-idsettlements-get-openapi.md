@@ -1,9 +1,14 @@
+---
 swagger: "2.0"
 x-collection-name: Square
-x-complete: 1
+x-complete: 0
 info:
-  title: Square Connect
-  description: client-library-for-accessing-the-square-connect-apis
+  title: Square Connect API Provides summary information for all deposits and withdrawals
+    initiated by Square to a merchant's bank account during a date range. Date ranges
+    cannot exceed one year in length.
+  description: Provides summary information for all deposits and withdrawals initiated
+    by Square to a merchant's bank account during a date range. Date ranges cannot
+    exceed one year in length.
   termsOfService: https://connect.squareup.com/tos
   contact:
     name: Square Developer Platform
@@ -81,3 +86,17 @@ paths:
       - Year
       - In
       - Length
+x-streamrank:
+  polling_total_time_average: "0"
+  polling_size_download_average: "0"
+  streaming_total_time_average: "0"
+  streaming_size_download_average: "0"
+  change_yes: "0"
+  change_no: "0"
+  time_percentage: "0"
+  size_percentage: "0"
+  change_percentage: "200"
+  last_run: ~
+  days_run: "0"
+  minute_run: "0"
+---

@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Deposits
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/capital-one-devexchange/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/capital-one-devexchange/accountsiddeposits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/capital-one-devexchange/accountsiddeposits-get-openapi.md
+- name: Capital One DevExchange - Create a deposit
+  x-api-slug: accountsiddeposits-post
+  description: Creates a deposit where the account with the ID specified receives
+    the amount.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/capital-one-devexchange/accountsiddeposits-post-openapi.md
 - name: Capital One DevExchange - Get deposit by id
   x-api-slug: depositsid-get
   description: Returns the deposit with the specific id
@@ -38,6 +49,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/capital-one-devexchange/depositsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/capital-one-devexchange/depositsid-get-openapi.md
+- name: Capital One DevExchange - Update a specific existing deposit
+  x-api-slug: depositsid-put
+  description: Updates the specific deposit
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deposits/master/_listings/capital-one-devexchange/depositsid-put-openapi.md
 - name: Capital One DevExchange - Delete a specific existing deposit
   x-api-slug: depositsid-delete
   description: Deletes the specific deposit
